@@ -1,4 +1,4 @@
-data=d3.csv('https://raw.githubusercontent.com/charleyferrari/CUNY_DATA_608/master/module6/d3_lab/ue_industry.csv',d3.autoType).then(data=>{
+data=d3.csv('ue_industry.csv',d3.autoType).then(data=>{
     //Self note: Please remember to convert using autotype or we will spent 7 hours wondering why the line hasn't been create. pretty plz
     //We will make sure to convert the values to their designated type and with .then use the data for our problem
     //W/o .then() it will wait on the promise the data will come and not load in the data
