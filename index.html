@@ -18,7 +18,9 @@
     </div>
 
     <h3>Question 2</h3>
-
+    <p>The svg graph is currently cut off by its viewport dimensions. The graph is complete but "out of bounds" from the user's view.</p>
+    <p>When we use inspect, we can see parts of the svg elements outside the current bounds. Increasing the svg dimensions would put it in view but it will take up more space and be no proportionate</p>
+    <p>In order for our pretty steamgraph to be in view, we need to shift the graph up into view. We can use the attribute tranform.translate to change the element's postion on the svg container</p>
     <div id="Part_2">
         <svg id="Chart_2" style="width:1200px;height:600px;"></svg>
     </div>
